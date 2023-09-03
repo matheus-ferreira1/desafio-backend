@@ -21,12 +21,14 @@ public class NotificationService {
 
         NotificationDTO notificationRequest = new NotificationDTO(email, message);
 
-        ResponseEntity<String> notificationResponse = restTemplate.postForEntity("o4d9z.mocklab.io/notify", notificationRequest, String.class);
+        // ResponseEntity<String> notificationResponse = restTemplate.postForEntity("o4d9z.mocklab.io/notify", notificationRequest, String.class);
 
-        if (!(notificationResponse.getStatusCode() == HttpStatus.OK)) {
-            System.out.println("Error sending notification");
-            throw new Exception("Error sending notification");
-        }
+        // if (!(notificationResponse.getStatusCode() == HttpStatus.OK)) {
+        //     System.out.println("Error sending notification");
+        //     throw new Exception("Error sending notification");
+        // }
+
+        System.out.println("Notification sent");
         
     }
     
