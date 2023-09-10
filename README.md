@@ -75,31 +75,7 @@ API RESTful que consiste em uma versão simplificada do Picpay. Podem ser cadast
     "receiverId": 2,
     "value": 100
 }
-```{
-    "id": 1,
-    "amount": 100,
-    "sender": {
-        "id": 2,
-        "firstName": "Matheus",
-        "lastName": "Sobrenome",
-        "document": "123456789",
-        "email": "matheus@gmail.com",
-        "password": "senha",
-        "balance": 0.00,
-        "userType": "COMMON"
-    },
-    "receiver": {
-        "id": 1,
-        "firstName": "Loja",
-        "lastName": "Sobrenome",
-        "document": "123456780",
-        "email": "loja@gmail.com",
-        "password": "senha",
-        "balance": 200.00,
-        "userType": "MERCHANT"
-    },
-    "timeStamp": "2023-09-03T00:30:25.057927707"
-}
+```
 #### Response:
 ```
 {
